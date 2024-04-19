@@ -1,0 +1,143 @@
+.review {
+    text-align: center;
+    padding: 2rem;
+    width: 80rem;
+    margin: 5rem;
+  }
+  
+  .sub-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    width: 80rem;
+    height: 30rem;
+  }
+  
+  .reviews_slide {
+    padding: 2rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);;
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    position: relative;
+    background-color: #060606;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 12rem;
+  }
+  
+  .reviews_slide .fa-quote-right {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.5rem;
+    color: #ccc;
+  }
+  
+  .reviews_slide .user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .reviews_slide .user-image {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .reviews_slide .user h3 {
+    color: #7388be;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .reviews_slide .stars {
+    color: #F5C518;
+    font-size: 1rem;
+    margin-top: auto;
+  }
+  
+  .reviews_slide p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #fff;
+    margin-top: auto;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .swiper-container {
+      height: 300px;
+    }
+  
+    .heading {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .reviews_slide {
+      padding: 1.5rem;
+    }
+  
+    .reviews_slide .fa-quote-right {
+      font-size: 5rem;
+    }
+  
+    .reviews_slide .user h3 {
+      font-size: 1.8rem;
+      padding-bottom: 0.3rem;
+    }
+  
+    .reviews_slide p {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .swiper-container {
+      height: 250px;
+    }
+  
+    .heading {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+  
+    .reviews_slide {
+      padding: 1rem;
+    }
+  
+    .reviews_slide .fa-quote-right {
+      font-size: 4rem;
+    }
+  
+    .reviews_slide .user h3 {
+      font-size: 1.6rem;
+      padding-bottom: 0.2rem;
+    }
+  
+    .reviews_slide p {
+      font-size: 1.2rem;
+    }
+  }
+  
